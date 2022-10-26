@@ -1,0 +1,43 @@
+* {
+    padding: 1rem;
+}
+
+body {
+    background-color: #213;
+}
+
+body > * {
+    box-shadow: inset 0 0 3rem -1rem black;
+    border-radius: 1rem;
+}
+
+h1 {
+    background-color: rebeccapurple;
+    color: cornflowerblue;
+    box-shadow: -5px 5px 0 -2px royalblue;
+}
+
+ul {
+    background-color: darkslateblue;
+    list-style: none;
+}
+
+li {
+    margin: 5px;
+    color: aquamarine;
+    border: 1px solid salmon;
+    border-radius: .2rem;
+}
+
+li:hover {
+    border-color: aquamarine;
+    box-shadow: inset 0 0 4em -2rem aquamarine;
+}
+
+li:hover a {
+    color: salmon;
+}
+
+a {
+    color: aqua;
+}
